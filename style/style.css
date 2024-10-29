@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    font-family: roboto;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 40px
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite
+}
+
+.list-item {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: ;
+}
+
+.first-button {
+    width: 122px;
+    height: 38px;
+    background-color: #ffcb45;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+/* hero style */
+
+.hero-container {
+    background-image: url('../imgs/backroung.png');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-first {
+    display: flex;
+    align-items: center;
+}
+
+.hero-heading {
+    font-size: 60px;
+    margin-bottom: 21px;
+}
+
+/* about style */
+
+.about-container {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about-content {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* popular style */
+
+.popular-menu-container {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.popular-content {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 18px;
+}
+
+.items {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+/* review siction */
+
+
+.review-container {
+    display: flex;
+}
+
+.img-content {
+    margin-left: 160px;
+}
+
+.review {
+    margin: 32px;
+}
+
+.review-card {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+/* discount style */
+
+.discount-container {
+    background-image: url('../imgs/13.png');
+    background-size: contain;
+    height: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+/* footer */
+
+.footer-container {
+    background-image: url('../imgs/14.png');
+    height: 50vh;
+    background-size: cover;
+}
+
+.footer-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+
+}
+
+.last{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.icon{
+    margin-top: 31px;
+
+
+    
+}
